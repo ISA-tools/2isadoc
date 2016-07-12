@@ -7,13 +7,16 @@
 ==========
 
 Generating ISA-Tab metadata files from various metabolomics formats.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 .. toctree::
    :maxdepth: 2
 
-   mzml2isa <mzml2isa/index.rst>
+   mzml2isa  <mzml2isa/index.rst>
+   nmrml2isa <nmrml2isa/index.rst>
+   Contacts  <contact.rst>
+
 
 
 

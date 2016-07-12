@@ -435,17 +435,4 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 
 
 
-import mzml2isa
-rst_epilog = """
-.. |mzml2isa pypi code| 
-   .. replace::
-      .. parsed-literal::
-   
-         tar xf mzml2isa-\ |{mzml2isa_latest}|\ .tar.gz # replace with whatever version you downloaded
-         cd mzml2isa-{mzml2isa_latest}.tar.gz
-         python setup.py install      # will require super-user rights
 
-
-""".format(
-   mzml2isa_latest=mzml2isa.__version__,
-   )

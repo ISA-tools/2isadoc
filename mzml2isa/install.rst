@@ -2,6 +2,14 @@ Installation
 ============
 
 
+mzml2isa is available on PyPI, so if ``pip`` is installed on your
+machine installing nmrml2isa should be quite straightforward, without
+the need to worry about dependencies. It is also possible to install
+nmrml2isa development version from the `mzml2isa GitHub repository <https://github.com/althonos/mzml2isa>`__.
+Please note that the GitHub version of the program may fix bugs but
+also introduce new bugs, and that it might not work on your files.
+
+
 Dependencies
 ------------
 
@@ -10,9 +18,8 @@ Dependencies
     - |lxml|_ to parse .mzML files
 
   .. warning::
-     Without pip you'll have to install the dependencies yourself, or else running 
+     Without pip you'll have to install the dependencies yourself, or else running
      ``setup.py`` will fail when trying to import **mzml2isa** for the first time.
-
 
 
   .. |pronto| replace:: ``pronto``
@@ -30,12 +37,7 @@ PyPI (stable version)
 
   * With ``pip``
 
-
-    mzml2isa is available on PyPI, so if ``pip`` is installed on your
-    machine installing mzml2isa should be quite straightforward, without
-    the need to worry about dependencies.
-
-    To install mzml2isa, run one the following commands in a terminal:
+    Just run one of the following commands in a terminal:
 
     .. code:: bash
 
@@ -53,8 +55,12 @@ PyPI (stable version)
 
     Unpack it and install it by running the following commands
 
-    |mzml2isa pypi code|
- 
+    .. code:: bash
+
+       tar xf mzml2isa-xx.yy.zz.tar.gz # replace with whatever version you downloaded
+       cd mzml2isa-xx.yy.zz.tar.gz
+       python setup.py install         # will require super-user rights
+
 
 .. |PyPI version| image:: https://img.shields.io/pypi/v/mzml2isa.svg?style=flat&maxAge=2592000
    :target: https://pypi.python.org/pypi/mzml2isa/
@@ -68,7 +74,7 @@ GitHub (development version)
   Current status: |Build Status|
 
   .. warning::
-     Please check the current version of the program passes the Travis CI validation beforehand, 
+     Please check the current version of the program passes the Travis CI validation beforehand,
      or else you'll install a non-functioning version of the program ! The program is working
      if the badge above looks like |Passing build|.
 
@@ -83,7 +89,7 @@ GitHub (development version)
   * Without ```pip```
 
     .. code:: bash
-    
+
        git clone https://github.com/althonos/mzml2isa
        cd mzml2isa
        python setup.py install

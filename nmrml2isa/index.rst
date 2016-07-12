@@ -9,6 +9,7 @@ MetaboLights database.
 
 .. toctree::
    :maxdepth: 2
-   
+
    Installation <install.rst>
+   Extracted Terms <extracted.rst>
    Frequently Asked Questions <faq.rst>

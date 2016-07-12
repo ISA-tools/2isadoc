@@ -2,62 +2,53 @@ Installation
 ============
 
 
+nmrml2isa is available on PyPI, so if `pip` is installed on your
+machine installing nmrml2isa should be quite straightforward, without
+the need to worry about dependencies. It is also possible to install
+nmrml2isa development version from the `nmrml2isa GitHub repository <https://github.com/althonos/nmrml2isa>`__.
+Please note that the GitHub version of the program may fix bugs but
+also introduce new bugs, and that it might not work on your files.
+
+
 Dependencies
 ------------
 
-  This package relies on:
-    - |pronto|_ to parse ontology files
-    - |lxml|_ to parse .mzML files
+This package relies on:
+  - `pronto <https://pypi.python.org/pypi/pronto>`__ to parse ontology files
 
-  .. warning::
-     Without pip you'll have to install the dependencies yourself, or else running 
-     ``setup.py`` will fail when trying to import **mzml2isa** for the first time.
-
-
-
-  .. |pronto| replace:: ``pronto``
-  .. _pronto: https://pypi.python.org/pypi/pronto
-
-  .. |lxml| replace:: ``lxml``
-  .. _lxml: http://lxml.de
-
+.. warning::
+   Without pip you'll have to install the dependencies yourself, or else running
+   ``setup.py`` will fail when trying to import **nmrml2isa** for the first time.
 
 
 PyPI (stable version)
 ---------------------
 
-  Current version: |PyPI version|
+Current version: |PyPI version|
 
-  * With ``pip``
+With `pip`
+  Just run one the following commands in a terminal:
 
+  .. code:: bash
 
-    mzml2isa is available on PyPI, so if ``pip`` is installed on your
-    machine installing mzml2isa should be quite straightforward, without
-    the need to worry about dependencies.
-
-    To install mzml2isa, run one the following commands in a terminal:
-
-    .. code:: bash
-
-       pip install mzml2isa        # install on the machine, needs super-user rights
-       pip install mzml2isa --user # install only for the current user, no rights needed
+     pip install nmrml2isa        # install on the machine, needs super-user rights
+     pip install nmrml2isa --user # install only for the current user, no rights needed
 
 
-  * Without ``pip``
+Without `pip`
+  This requires the python ``setuptools`` module to be installed.
+  Download the latest stable release from the `PyPI repository <https://pypi.python.org/pypi/nmrml2isa>`__,
+  unpack it and install it by running the following commands:
+
+  .. code:: bash
+
+     tar xf nmrml2isa-xx.yy.zz.tar.gz # replace with whatever version you downloaded
+     cd nmrml2isa-xx.yy.zz.tar.gz
+     python setup.py install         # will require super-user rights
 
 
-    If however `pip` is not installed (you should install it!), then it is still possible
-    to install mzml2isa from the distributed source package. Go on the Pypi page
-    and download `mzml2isa-x.y.z.tar.gz` (the latest sdist archive available). This
-    method requires the ``setuptools`` python module.
-
-    Unpack it and install it by running the following commands
-
-    |mzml2isa pypi code|
- 
-
-.. |PyPI version| image:: https://img.shields.io/pypi/v/mzml2isa.svg?style=flat&maxAge=2592000
-   :target: https://pypi.python.org/pypi/mzml2isa/
+.. |PyPI version| image:: https://img.shields.io/pypi/v/nmrml2isa.svg?style=flat&maxAge=2592000
+   :target: https://pypi.python.org/pypi/nmrml2isa/
 
 
 
@@ -65,32 +56,32 @@ PyPI (stable version)
 GitHub (development version)
 ----------------------------
 
-  Current status: |Build Status|
+Current status: |Build Status|
 
-  .. warning::
-     Please check the current version of the program passes the Travis CI validation beforehand, 
-     or else you'll install a non-functioning version of the program ! The program is working
-     if the badge above looks like |Passing build|.
-
-
-  * With ``pip``
-
-    .. code:: bash
-
-       pip install git+git://github.com/althonos/mzml2isa
+.. warning::
+   Please check the current version of the program passes the Travis CI validation beforehand,
+   or else you're likely to install a non-functioning version of the program ! The program
+   is working if the badge above displays |Passing build|.
 
 
-  * Without ```pip```
+With `pip`
 
-    .. code:: bash
-    
-       git clone https://github.com/althonos/mzml2isa
-       cd mzml2isa
-       python setup.py install
+  .. code:: bash
+
+     pip install git+git://github.com/althonos/nmrml2isa
 
 
-.. |Build Status| image:: https://img.shields.io/travis/althonos/mzml2isa.svg?style=flat&maxAge=2592000
-   :target: https://travis-ci.org/althonos/mzml2isa
+Without `pip`
+
+  .. code:: bash
+
+     git clone https://github.com/althonos/nmrml2isa
+     cd nmrml2isa
+     python setup.py install
+
+
+.. |Build Status| image:: https://img.shields.io/travis/althonos/nmrml2isa.svg?style=flat&maxAge=2592000
+   :target: https://travis-ci.org/althonos/nmrml2isa
 
 .. |Passing build| image:: https://img.shields.io/badge/build-passing-brightgreen.svg
 
