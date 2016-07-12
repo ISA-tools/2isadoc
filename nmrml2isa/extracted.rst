@@ -1,8 +1,8 @@
 :tocdepth: 1
 
 
-Extracted terms
-===============
+Extracted Terms list
+====================
 
 
 .. glossary::

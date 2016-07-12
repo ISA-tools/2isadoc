@@ -5,15 +5,35 @@ Frequently Asked Questions
 
 
 
-What metadata does mzml2isa extract from the .mzML files ?
-----------------------------------------------------------
+What metadata does mzml2isa extract from .mzML files ?
+''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 
+What metadata does mzml2isa extract from .imzML files ?
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+.. _issue:
+
+How do I report an issue / ask for a new feature ?
+''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Go on the `GitHub repository issue tracker <https://github.com/althonos/mzml2isa/issues>`__
+of the program, check that no similar issue already exist, and if so, open
+a new issue and include the following information:
+
+  * what software and software version you used (you can know the version
+    of the program by running ``mzml2isa --version`` in a terminal)
+  * **one the files you used** (without this, nothing can be done to analyze
+    the issue !)
+  * any remark you might have on how you think your file may `not` be
+    generic (special instrument, multiple instruments, special parameters,
+    etc.)
+  * the complete traceback of the error if you report a crash
 
 
 The program crashed when I used it on my files, what should I do ?
-------------------------------------------------------------------
-
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 While the **mzML** file format is supposed to be a standard, it so
 happens that depending on what hardware and software were used to
 generate .mzML files after a Mass Spectrometry study, some tags may
@@ -22,22 +42,10 @@ elsewhere than expected in the final .mzML file.
 
 Even though the example files used to test mzml2isa are thought to be
 comprehensive, it might happen that the files you use are one of the
-special cases we did not consider.
+special cases we did not consider. But a new version of the program
+may have corrected the bug that hit you already, so make sure **you
+are running the latest version of mzml2isa**.
 
-In order to help the resolution of such problems, contact one of the author
-of the program in the :ref:`contacts` page, and send him the following information
-in your email:
-
-  * what software and software version you used (you can know the version
-    by running ``mzml2isa --version`` in a terminal)
-  * **the file that made the program crash** (without this, nothing can
-    be done to analyze the issue)
-  * any remark you might have on how you think your file is `not`
-    generic (special instrument, multiple instruments, special parameters,
-    etc.)
-
-The development team will then have a glance at that file to try to understand
-what made the program crash.
-
+To communicate that crash to us, see :ref:`issue`
 
 

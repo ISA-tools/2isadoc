@@ -11,5 +11,6 @@ MetaboLights database.
    :maxdepth: 2
 
    Installation <install.rst>
-   Extracted Terms <extracted.rst>
    Frequently Asked Questions <faq.rst>
+   Extracted Terms List <extracted.rst>
+
