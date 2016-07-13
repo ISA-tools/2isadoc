@@ -57,7 +57,7 @@ GitHub (development version) |Build Status|
 
 .. warning::
    Please check the current version of the program passes the Travis CI validation beforehand,
-   or else you'll install a non-functioning version of the program ! The program is working
+   or you could be installing a non-functional version of the program ! The program is working
    if the badge above displays |Passing build|.
 
 
