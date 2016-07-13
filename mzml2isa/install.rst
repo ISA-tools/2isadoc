@@ -3,11 +3,9 @@ Installation
 
 
 mzml2isa is available on PyPI, so if ``pip`` is installed on your
-machine installing nmrml2isa should be quite straightforward, without
+machine, installing mzml2isa should be quite straightforward, without
 the need to worry about dependencies. It is also possible to install
-nmrml2isa development version from the `mzml2isa GitHub repository <https://github.com/althonos/mzml2isa>`__.
-Please note that the GitHub version of the program may fix bugs but
-also introduce new bugs, and that it might not work on your files.
+mzml2isa development version directly from the `mzml2isa GitHub repository <https://github.com/althonos/mzml2isa>`__.
 
 
 Dependencies
