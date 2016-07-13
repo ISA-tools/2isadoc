@@ -15,7 +15,7 @@ Dependencies
 - `lxml <http://lxml.de>`__
 
 .. warning::
-   Without pip you'll have to install the dependencies yourself, or else running
+   Without pip you'll have to install the dependencies yourself, otherwise running
    ``setup.py`` will fail when trying to import **mzml2isa** for the first time.
 
 
