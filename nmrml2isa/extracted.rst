@@ -590,11 +590,11 @@ Extracted Terms list
     .. parsed-literal::
 
        - type:
-         float w/ unit
+         free text w/ unit
        - definition:
          The range of the X axis
        - example value:
-         {"value": "",
+         {"value": "2-25",
           "unit": {"accession": "http://purl.obolibrary.org/obo/UO_0000169",
                    "name": "parts per million", "ref": "UO"} }
 

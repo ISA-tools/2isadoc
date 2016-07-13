@@ -24,7 +24,7 @@ a new issue and include the following information:
 
   * what software and software version you used (you can know the version
     of the program by running ``mzml2isa --version`` in a terminal)
-  * **one the files you used** (without this, nothing can be done to analyze
+  * **one of the files you used** (without this, nothing can be done to analyze
     the issue !)
   * any remark you might have on how you think your file may `not` be
     generic (special instrument, multiple instruments, special parameters,
