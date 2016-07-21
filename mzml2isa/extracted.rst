@@ -4,6 +4,7 @@
 Extracted Terms list
 ====================
 
+.. _extracted_mzml:
 
 mzML
 ''''
@@ -332,7 +333,7 @@ mzML
          {"value": "0.0061-30.0042"}
 
 
-
+.. _extracted_imzml:
 
 imzML
 '''''

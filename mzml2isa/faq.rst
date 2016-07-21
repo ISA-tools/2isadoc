@@ -8,9 +8,13 @@ Frequently Asked Questions
 What metadata does mzml2isa extract from .mzML files ?
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+See :ref:`extracted_mzml`.
+
 
 What metadata does mzml2isa extract from .imzML files ?
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+See :ref:`extracted_imzml`.
 
 
 .. _issue:

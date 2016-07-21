@@ -34,11 +34,13 @@ Python module
 
    Syntax for imzML and mzML is the same, except when the
    class `mzMLmeta` is used: for imzML files, simply replace
-   `mzMLmeta` with `imzMLmeta` and it should work.
+   `mzMLmeta` with `imzMLmeta`.
 
 
 Extract metadata of a file called `sample1.mzML` and print
 a json dictionnary containing those metadata
+
+.. highlight:: bash
 
 .. code:: bash
 

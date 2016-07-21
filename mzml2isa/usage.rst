@@ -41,11 +41,13 @@ those images)::
    └ home/
      └ metabolomics/
        └ MTBLS289/
+         ├ A14 5cm S3.ndpi
          ├ A14 5cm S3.jpg               # Sample name will be
          ├ A14 5cm S3-centroid.ibd      # "A14 5cm S3"
          ├ A14 5cm S3-centroid.imzML    # and centroid and profile
          ├ A14 5cm S3-profile.ibd       # scans will be merged.
          ├ A14 5cm S3-profile.imzML
+         ├ A14 10cm S3.ndpi
          ├ A14 10cm S3.jpg              # Sample name will be
          ├ A14 10cm S3-centroid.ibd     # "A14 10cm S3"
          ├ A14 10cm S3-centroid.imzML   # and centroid and profile
