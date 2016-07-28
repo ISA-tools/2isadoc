@@ -1,7 +1,7 @@
 mzml2isa
 ========
 
-|Version| |Py versions| |Git| |Build Status| |License| |RTD doc|
+|Version| |Py versions| |Git| |Build Status| |License| |RTD doc| |DOI|
 
 
 mzml2isa is a program that allows you to convert metabolomic studies
@@ -38,3 +38,6 @@ MetaboLights database.
 
 .. |RTD doc| image:: https://img.shields.io/badge/documentation-RTD-71B360.svg?style=flat&maxAge=2592000
    :target: http://2isa.readthedocs.io/en/latest/mzml2isa/index.html
+
+.. |DOI| image:: https://zenodo.org/badge/23304/althonos/mzml2isa.svg
+   :target: https://zenodo.org/badge/latestdoi/23304/althonos/mzml2isa
