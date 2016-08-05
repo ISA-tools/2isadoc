@@ -37,6 +37,7 @@ Graphical User Interface
 
    mzml2isa-qt <mzml2isa-qt/index.rst>
    imzml2isa-qt <imzml2isa-qt/index.rst>
+   nmrml2isa-qt <nmrml2isa-qt/index.rst>
 
 
 About
