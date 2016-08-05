@@ -1,5 +1,5 @@
-mzml2isa
-========
+mzml2isa-qt
+===========
 
 |Version| |Py versions| |Git| |License| |RTD doc|
 

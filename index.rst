@@ -36,6 +36,7 @@ Graphical User Interface
    :maxdepth: 2
 
    mzml2isa-qt <mzml2isa-qt/index.rst>
+   imzml2isa-qt <imzml2isa-qt/index.rst>
 
 
 About

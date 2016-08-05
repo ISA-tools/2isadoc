@@ -40,7 +40,7 @@ Without `pip`
 '''''''''''''
 
 This requires the python ``setuptools`` module to be installed, as well as the dependencies listed above. Download the latest stable release
-from the `PyPI repository <https://pypi.python.org/pypi/nmrml2isa>`__, unpack it and install it
+from the `PyPI repository <https://pypi.python.org/pypi/mzml2isa-qt>`__, unpack it and install it
 by running the following commands:
 
 .. code:: bash
