@@ -41,8 +41,10 @@ Without `pip`
 '''''''''''''
 
 This requires the python ``setuptools`` module to be installed, as well as the dependencies listed above. Download the latest stable release
-from the `PyPI repository <https://pypi.python.org/pypi/nmrml2isa>`__, unpack it and install it
-by running the following commands:
+from the:
+`PyPI repository mzML2ISA <https://pypi.python.org/pypi/mzml2isa>`__ ,
+`PyPI repository nmrML2ISA <https://pypi.python.org/pypi/nmrml2isa>`__
+, unpack it and install it by running the following commands:
 
 .. code:: bash
 
