@@ -22,7 +22,7 @@ See :ref:`extracted_imzml`.
 How do I report an issue / ask for a new feature ?
 ''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Go on the `GitHub repository issue tracker <https://github.com/althonos/mzml2isa/issues>`__
+Go on the `GitHub repository issue tracker <https://github.com/ISA-tools/mzml2isa/issues>`__
 of the program, check that no similar issue already exist, and if so, open
 a new issue and include the following information:
 
