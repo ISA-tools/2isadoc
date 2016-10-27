@@ -33,17 +33,15 @@ Just run one of the following commands in a terminal:
 
 .. code:: bash
 
-   pip install mzml2isa        # install on the machine, needs super-user rights
-   pip install mzml2isa --user # install only for the current user, no rights needed
+   pip install mzml2isa        # install in /usr
+   pip install mzml2isa --user # install in ~/.local/
 
 
 Without `pip`
 '''''''''''''
 
 This requires the python ``setuptools`` module to be installed, as well as the dependencies listed above. Download the latest stable release
-from the:
-`PyPI repository mzML2ISA <https://pypi.python.org/pypi/mzml2isa>`__ ,
-`PyPI repository nmrML2ISA <https://pypi.python.org/pypi/nmrml2isa>`__
+from the `PyPI repository of mzml2isa <https://pypi.python.org/pypi/mzml2isa>`__ ,
 , unpack it and install it by running the following commands:
 
 .. code:: bash
@@ -68,7 +66,7 @@ With `pip`
 
 .. code:: bash
 
-   pip install git+git://github.com/althonos/mzml2isa
+   pip install git+git://github.com/ISA-tools/mzml2isa
 
 
 Without `pip`
@@ -76,7 +74,7 @@ Without `pip`
 
 .. code:: bash
 
-   git clone https://github.com/althonos/mzml2isa
+   git clone https://github.com/ISA-tools/mzml2isa
    cd mzml2isa
    python setup.py install
 
