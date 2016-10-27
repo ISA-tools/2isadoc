@@ -31,7 +31,7 @@ MetaboLights database.
    :target: https://pypi.python.org/pypi/mzml2isa/
 
 .. |Git| image:: https://img.shields.io/badge/repository-GitHub-blue.svg?style=flat&maxAge=2592000
-   :target: https://github.com/althonos/mzml2isa
+   :target: https://github.com/ISA-tools/mzml2isa
 
 .. |License| image:: https://img.shields.io/pypi/l/mzml2isa.svg?style=flat&maxAge=2592000
    :target: https://www.gnu.org/licenses/gpl-3.0.html
