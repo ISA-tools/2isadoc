@@ -18,6 +18,15 @@ Dependencies
    Without pip you'll have to install the dependencies yourself, otherwise running
    ``setup.py`` will fail when trying to import **mzml2isa** for the first time.
 
+lxml on windows
+----------------
+
+When installing mzml2isa on windows the lxml dependency can fail to install. This can be overcome in one of two ways:
+
+1. If Microsoft Visual C++ is already installed on the Windows machine, the following command will install lxml:
+   ``set STATICBUILD=true && pip install lxml``
+2. lxml can be installed using `the unofficial windows binaries (whls) <http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml)>`__
+
 
 PyPI (stable version) |PyPI version|
 ------------------------------------
