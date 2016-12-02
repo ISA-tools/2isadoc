@@ -21,8 +21,8 @@ MetaboLights database.
 
 
 
-.. |Build Status| image:: https://img.shields.io/travis/althonos/mzml2isa.svg?style=flat&maxAge=2592000
-   :target: https://travis-ci.org/althonos/mzml2isa
+.. |Build Status| image:: https://img.shields.io/travis/ISA-tools/mzml2isa/master.svg?style=flat&maxAge=2592000
+   :target: https://travis-ci.org/ISA-tools/mzml2isa
 
 .. |Py versions| image:: https://img.shields.io/pypi/pyversions/mzml2isa.svg?style=flat&maxAge=2592000
    :target: https://pypi.python.org/pypi/mzml2isa/
@@ -39,5 +39,5 @@ MetaboLights database.
 .. |RTD doc| image:: https://img.shields.io/badge/documentation-RTD-71B360.svg?style=flat&maxAge=2592000
    :target: http://2isa.readthedocs.io/en/latest/mzml2isa/index.html
 
-.. |DOI| image:: https://zenodo.org/badge/23304/althonos/mzml2isa.svg
-   :target: https://zenodo.org/badge/latestdoi/23304/althonos/mzml2isa
+.. |DOI| image:: https://zenodo.org/badge/37276823.svg
+   :target: https://zenodo.org/badge/latestdoi/37276823

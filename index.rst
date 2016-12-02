@@ -19,7 +19,7 @@ creating the backbone for an ISA-Tab study that can then be shared on databases 
 Documentation
 -------------
 
-Command Line Applications / Librairies
+Command Line Applications / Libraries
 ''''''''''''''''''''''''''''''''''''''
 
 .. toctree::
@@ -29,7 +29,7 @@ Command Line Applications / Librairies
    nmrml2isa <nmrml2isa/index.rst>
 
 
-Graphical User Interface
+Graphical User Interfaces
 '''''''''''''''''''''''''
 
 .. toctree::

@@ -5,7 +5,7 @@ Installation
 imzml2isa-qt is available on PyPI, so if ``pip`` is installed on your
 machine, installing mzml2isa should be quite straightforward, without
 the need to worry about dependencies. It is also possible to install
-mzml2isa development version directly from the `imzml2isa-qt GitHub repository <https://github.com/althonos/imzml2isa-qt>`__.
+mzml2isa development version directly from the `imzml2isa-qt GitHub repository <https://github.com/ISA-tools/imzml2isa-qt>`__.
 
 .. warning::
    imzml2isa-qt is a **Python3 program only !**
@@ -14,8 +14,19 @@ mzml2isa development version directly from the `imzml2isa-qt GitHub repository <
 Dependencies
 ------------
 
-- `mzml2isa <https://pypi.python.org/pypi/mzml2isa>`__
-- `PyQt5 <https://pypi.python.org/pypi/PyQt5/5.6>`__
+.. warning::
+   Without pip you'll have to install the requirements yourself, otherwise running
+   ``setup.py`` will fail when trying to import **nmrml2isa** for the first time.
+
+Requirements
+''''''''''''
+
+`nmrml2isa <https://pypi.python.org/pypi/nmrml2isa>`_
+   the parsing libary (see `here <http://2isa.readthedocs.io/en/latest/nmrml2isa/index.html>`_)
+
+`PyQt5 <https://pypi.python.org/pypi/PyQt5/5.6>`_
+   the GUI toolkit used by nmrml2isa-qt (see `here <https://riverbankcomputing.com/software/pyqt/intro>`_
+   for more information about PyQt)
 
 
 PyPI (stable version) |PyPI version|
@@ -59,7 +70,7 @@ With `pip`
 
 .. code:: bash
 
-   pip install git+git://github.com/althonos/imzml2isa-qt
+   pip install git+git://github.com/ISA-tools/imzml2isa-qt
 
 
 Without `pip`
@@ -67,7 +78,7 @@ Without `pip`
 
 .. code:: bash
 
-   git clone https://github.com/althonos/imzml2isa-qt
+   git clone https://github.com/ISA-tools/imzml2isa-qt
    cd imzml2isa-qt
    python setup.py install
 

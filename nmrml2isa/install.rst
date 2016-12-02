@@ -5,7 +5,7 @@ Installation
 nmrml2isa is available on PyPI, so if `pip` is installed on your
 machine installing nmrml2isa should be quite straightforward, without
 the need to worry about dependencies. It is also possible to install
-nmrml2isa development version from its `GitHub repository <https://github.com/althonos/nmrml2isa>`__.
+nmrml2isa development version from its `GitHub repository <https://github.com/ISA-tools/nmrml2isa>`__.
 Please note that the GitHub version of the program may fix bugs but
 also introduce new bugs, and that it might not work on your files.
 
@@ -13,17 +13,39 @@ also introduce new bugs, and that it might not work on your files.
 Dependencies
 ------------
 
-- `pronto <https://pypi.python.org/pypi/pronto>`__
-
 .. warning::
-   Without pip you'll have to install the dependencies yourself, or else running
+   Without pip you'll have to install the requirements yourself, otherwise running
    ``setup.py`` will fail when trying to import **nmrml2isa** for the first time.
+
+Requirements
+''''''''''''
+
+`pronto <https://pypi.python.org/pypi/pronto>`__
+   an interface to ontology files (used to import the MS controled vocabulary)
+
+`chainmap <https://pypi.python.org/pypi/chainmap>`_ (required for Python 2 or PyPy)
+   a polyfill implementation of collections.ChainMap (available in Python 3 stdlib)
+
+Extras
+''''''
+
+`lxml <https://pypi.python.org/pypi/lxml>`_
+   an XML parser generally quicker than the builtin python xml.cElementTree
+   (used as an alternative to parse the nmrML files)
+
+   .. note::
+
+      If installing lxml on windows, you can either:
+
+      1. Compile it directly (requires Microsoft Visual C++ to be installed on the Windows machine):
+         run the command ``set STATICBUILD=true && pip install lxml``
+      2. Install the `unofficial windows binaries (whls) <http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml>`__
 
 
 PyPI (stable version) |PyPI version|
 ------------------------------------
 
-.. |PyPI version| image:: https://img.shields.io/pypi/v/nmrml2isa.svg?style=flat&maxAge=2592000
+.. |PyPI version| image:: https://img.shields.io/pypi/v/nmrml2isa.svg?style=flat&maxAge=3600
    :target: https://pypi.python.org/pypi/nmrml2isa/
    :align: middle
 
@@ -68,7 +90,7 @@ With `pip`
 
 .. code:: bash
 
-   pip install git+git://github.com/althonos/nmrml2isa
+   pip install git+git://github.com/ISA-tools/nmrml2isa
 
 
 Without `pip`
@@ -76,13 +98,13 @@ Without `pip`
 
 .. code:: bash
 
-   git clone https://github.com/althonos/nmrml2isa
+   git clone https://github.com/ISA-tools/nmrml2isa
    cd nmrml2isa
    python setup.py install
 
 
-.. |Build Status| image:: https://img.shields.io/travis/althonos/nmrml2isa.svg?style=flat&maxAge=2592000
-   :target: https://travis-ci.org/althonos/nmrml2isa
+.. |Build Status| image:: https://img.shields.io/travis/ISA-tools/nmrml2isa.svg?style=flat&maxAge=2592000
+   :target: https://travis-ci.org/ISA-tools/nmrml2isa
    :align: middle
 
 .. |Passing build| image:: https://img.shields.io/badge/build-passing-brightgreen.svg

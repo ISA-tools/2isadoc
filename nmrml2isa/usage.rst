@@ -20,7 +20,7 @@ Example structure::
    /
    └ home/
      └ metabolomics/
-       └ MZML study/      # the name of the folder doesn't matter
+       └ nmrML study/     # the name of the folder doesn't matter
          ├ Sample1.nmrML  # the name of the file must correspond to the sample name
          ├ Sample2.zip    # the raw files should be zipped and called exactly like the nmrML
          ├ Sample2.nmrML

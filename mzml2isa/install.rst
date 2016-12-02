@@ -5,33 +5,42 @@ Installation
 mzml2isa is available on PyPI, so if ``pip`` is installed on your
 machine, installing mzml2isa should be quite straightforward, without
 the need to worry about dependencies. It is also possible to install
-mzml2isa development version directly from the `mzml2isa GitHub repository <https://github.com/althonos/mzml2isa>`__.
+mzml2isa development version directly from the `mzml2isa GitHub repository <https://github.com/ISA-tools/mzml2isa>`__.
 
 
 Dependencies
 ------------
 
-- `pronto <https://pypi.python.org/pypi/pronto>`__
-- `lxml <http://lxml.de>`__
-
 .. warning::
-   Without pip you'll have to install the dependencies yourself, otherwise running
+   Without pip you'll have to install the requirements yourself, otherwise running
    ``setup.py`` will fail when trying to import **mzml2isa** for the first time.
 
-lxml on windows
-----------------
+Requirements
+''''''''''''
 
-When installing mzml2isa on windows the lxml dependency can fail to install. This can be overcome in one of two ways:
+`pronto <https://pypi.python.org/pypi/pronto>`__
+   an interface to ontology files (used to import the MS controled vocabulary)
 
-1. If Microsoft Visual C++ is already installed on the Windows machine, the following command will install lxml:
-   ``set STATICBUILD=true && pip install lxml``
-2. lxml can be installed using `the unofficial windows binaries (whls) <http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml)>`__
+Extras
+''''''
+
+`lxml <https://pypi.python.org/pypi/lxml>`_
+   an XML parser generally quicker than the builtin python xml.cElementTree
+   (used as an alternative to parse the mzML files)
+
+   .. note::
+
+      If installing lxml on windows, you can either:
+
+      1. Compile it directly (requires Microsoft Visual C++ to be installed on the Windows machine):
+         run the command ``set STATICBUILD=true && pip install lxml``
+      2. Install the `unofficial windows binaries (whls) <http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml>`__
 
 
 PyPI (stable version) |PyPI version|
 ------------------------------------
 
-.. |PyPI version| image:: https://img.shields.io/pypi/v/mzml2isa.svg?style=flat&maxAge=2592000
+.. |PyPI version| image:: https://img.shields.io/pypi/v/mzml2isa.svg?style=flat&maxAge=3600
    :target: https://pypi.python.org/pypi/mzml2isa/
 
 
@@ -42,16 +51,17 @@ Just run one of the following commands in a terminal:
 
 .. code:: bash
 
-   pip install mzml2isa        # install in /usr
+   pip install mzml2isa        # install in /usr, needs super-user rights
    pip install mzml2isa --user # install in ~/.local/
 
 
 Without `pip`
 '''''''''''''
 
-This requires the python ``setuptools`` module to be installed, as well as the dependencies listed above. Download the latest stable release
-from the `PyPI repository of mzml2isa <https://pypi.python.org/pypi/mzml2isa>`__ ,
-, unpack it and install it by running the following commands:
+This requires the python ``setuptools`` module to be installed, as well as the
+dependencies listed above. Download the latest stable release from the
+`PyPI repository of mzml2isa <https://pypi.python.org/pypi/mzml2isa>`__ ,
+unpack it and install it by running the following commands:
 
 .. code:: bash
 
@@ -88,8 +98,8 @@ Without `pip`
    python setup.py install
 
 
-.. |Build Status| image:: https://img.shields.io/travis/althonos/mzml2isa.svg?style=flat&maxAge=2592000
-   :target: https://travis-ci.org/althonos/mzml2isa
+.. |Build Status| image:: https://img.shields.io/travis/ISA-tools/mzml2isa.svg?style=flat&maxAge=3600
+   :target: https://travis-ci.org/ISA-tools/mzml2isa
 
 .. |Passing build| image:: https://img.shields.io/badge/build-passing-brightgreen.svg
 

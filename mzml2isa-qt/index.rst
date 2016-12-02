@@ -24,7 +24,7 @@ as adding more metadata to the generated ISA files through its interface.
    :target: https://pypi.python.org/pypi/mzml2isa-qt/
 
 .. |Git| image:: https://img.shields.io/badge/repository-GitHub-blue.svg?style=flat&maxAge=2592000
-   :target: https://github.com/althonos/mzml2isa-qt
+   :target: https://github.com/ISA-tools/mzml2isa-qt
 
 .. |License| image:: https://img.shields.io/pypi/l/mzml2isa-qt.svg?style=flat&maxAge=2592000
    :target: https://www.gnu.org/licenses/gpl-3.0.html

@@ -14,7 +14,7 @@ and can be accessed, look at the :doc:`extracted` page.
 How do I report an issue / ask for a new feature ?
 ''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Go on the `GitHub repository issue tracker <https://github.com/althonos/nmrml2isa/issues>`__
+Go on the `GitHub repository issue tracker <https://github.com/ISA-tools/nmrml2isa/issues>`__
 of the program, check that no similar issue already exist, and if so, open
 a new issue and include the following information:
 
@@ -60,4 +60,4 @@ The parameter `xxxxx` is not extracted !
 ''''''''''''''''''''''''''''''''''''''''
 There is large chances that if a parameter you want to extract was not
 extracted is that the extraction for that parameter was not implemented.
-See :ref:`issue`
+See :ref:`issue` to report it and create a feature request.

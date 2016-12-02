@@ -5,7 +5,7 @@ Installation
 nmrml2isa-qt is available on PyPI, so if ``pip`` is installed on your
 machine, installing nmrml2isa should be quite straightforward, without
 the need to worry about dependencies. It is also possible to install
-nmrml2isa development version directly from the `nmrml2isa-qt GitHub repository <https://github.com/althonos/nmrml2isa-qt>`__.
+nmrml2isa development version directly from the `nmrml2isa-qt GitHub repository <https://github.com/Isa-tools/nmrml2isa-qt>`__.
 
 .. warning::
    nmrml2isa-qt is a **Python3 program only !**
@@ -14,8 +14,19 @@ nmrml2isa development version directly from the `nmrml2isa-qt GitHub repository 
 Dependencies
 ------------
 
-- `nmrml2isa <https://pypi.python.org/pypi/nmrml2isa>`__
-- `PyQt5 <https://pypi.python.org/pypi/PyQt5/5.6>`__
+.. warning::
+   Without pip you'll have to install the requirements yourself, otherwise running
+   ``setup.py`` will fail when trying to import **nmrml2isa** for the first time.
+
+Requirements
+''''''''''''
+
+`nmrml2isa <https://pypi.python.org/pypi/nmrml2isa>`_
+   the parsing libary (see `here <http://2isa.readthedocs.io/en/latest/nmrml2isa/index.html>`_)
+
+`PyQt5 <https://pypi.python.org/pypi/PyQt5/5.6>`_
+   the GUI toolkit used by nmrml2isa-qt (see `here <https://riverbankcomputing.com/software/pyqt/intro>`_
+   for more information about PyQt)
 
 
 PyPI (stable version) |PyPI version|
@@ -32,8 +43,8 @@ Just run one of the following commands in a terminal:
 
 .. code:: bash
 
-   pip install nmrml2isa-qt        # install on the machine, needs super-user rights
-   pip install nmrml2isa-qt --user # install only for the current user, no rights needed
+   pip install nmrml2isa-qt        # install in /usr, needs super-user rights
+   pip install nmrml2isa-qt --user # install in ~/.local
 
 
 Without `pip`
@@ -59,7 +70,7 @@ With `pip`
 
 .. code:: bash
 
-   pip install git+git://github.com/althonos/nmrml2isa-qt
+   pip install git+git://github.com/ISA-tools/nmrml2isa-qt
 
 
 Without `pip`
@@ -67,7 +78,7 @@ Without `pip`
 
 .. code:: bash
 
-   git clone https://github.com/althonos/nmrml2isa-qt
+   git clone https://github.com/ISA-tools/nmrml2isa-qt
    cd nmrml2isa-qt
-   python setup.py install
+   python setup.py install           # will require super-user rights
 
