@@ -10,6 +10,11 @@ mzml2isa development version directly from the `imzml2isa-qt GitHub repository <
 .. warning::
    imzml2isa-qt is a **Python3 program only !**
 
+Windows
+------------
+
+Windows users can either install imzml2isa-qt as described below or use a 'ready to go' Windows executable. The executables be found on the imzml2isa-qt `Github release section  <https://github.com/ISA-tools/imzml2isa-qt/releases>`__. See file imzml2isa_gui.exe.
+
 
 Dependencies
 ------------

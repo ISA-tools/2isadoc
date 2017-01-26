@@ -7,6 +7,10 @@ machine, installing mzml2isa should be quite straightforward, without
 the need to worry about dependencies. It is also possible to install
 mzml2isa development version directly from the `mzml2isa GitHub repository <https://github.com/ISA-tools/mzml2isa>`__.
 
+Windows
+------------
+
+Windows users can either install mzml2isa as described below or use a 'ready to go' Windows executable. The executables be found on the mzml2isa `Github release section  <https://github.com/ISA-tools/mzml2isa/releases>`__. See file mzml2isa_cli.exe.
 
 Dependencies
 ------------

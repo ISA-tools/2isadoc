@@ -10,6 +10,11 @@ mzml2isa development version directly from the `mzml2isa-qt GitHub repository <h
 .. warning::
    mzml2isa-qt is a **Python3 program only !**
 
+Windows
+------------
+
+Windows users can either install mzml2isa-qt as described below or use a 'ready to go' Windows executable. The executables be found on the mzml2isa-qt `Github release section  <https://github.com/ISA-tools/mzml2isa-qt/releases>`__. See file mzml2isa_gui.exe.
+
 
 Dependencies
 ------------

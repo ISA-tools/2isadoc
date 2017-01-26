@@ -10,6 +10,11 @@ nmrml2isa development version directly from the `nmrml2isa-qt GitHub repository 
 .. warning::
    nmrml2isa-qt is a **Python3 program only !**
 
+Windows
+------------
+
+Windows users can either install nmrml2isa-qt as described below or use a 'ready to go' Windows executable. The executables be found on the nmrml2isa-qt `Github release section  <https://github.com/ISA-tools/nmrml2isa-qt/releases>`__. See file nmrml2isa_gui.exe.
+
 
 Dependencies
 ------------
