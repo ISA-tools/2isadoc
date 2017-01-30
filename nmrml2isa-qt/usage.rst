@@ -1,5 +1,13 @@
 Usage
 =====
+Video tutorial
+----------------
+
+See below for 5 min video for how to use either mzml2isa-qt, imzml2isa-qt or nmrml2isa-qt.
+
+https://www.youtube.com/watch?v=xy3uusQRkbI
+
+
 
 Folder structure
 ----------------
