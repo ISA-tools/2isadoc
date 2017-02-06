@@ -51,6 +51,26 @@ Add any metadata through the GUI and then click apply. The terminal will then sp
 
 See the following link for full `example of json. <http://codebeautify.org/jsonviewer/cba2a5c8>`__   
 
+GUI
+-----------
+This metadata is added direcly via via the GUI using via the usermeta dialog. 
 
+CLI
+-----------
+For the CLI simply use the ``-m`` option and direct to the json file. 
+
+.. highlight:: bash
+.. code:: bash
+
+   mzml2isa -i /path/to/mzml/folder -o /path/to/out_folder -s STUDYID -m metadata.json
+   nmrml2isa -i /path/to/mzml/folder -o /path/to/out_folder -s STUDYID -m metadata.json
+
+API
+-----------
+For the API see the ``usermeta`` pass the JSON as a python dictionary to the ISA_Tab class. See the following API documentation for class `mzml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/mzml2isa/api/isatab.html>`__  and class `nmrml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/nmrml2isa/api/isatab.html>`__ 
+
+Galaxy
+-----------
+This metadata can be added manually via the dropdown options or via a prepared JSON file using the ``Additional user metadata in json`` option.
 
 
