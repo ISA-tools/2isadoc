@@ -1,7 +1,8 @@
 JSON metadata
 ===========
 
-*For advanced use only* 
+.. warning::
+   *For advanced use only* 
 
 All additional metadata can be added in a JSON format. A format that is easily interchangeable with python dictionaries.
 
@@ -67,7 +68,7 @@ For the CLI simply use the ``-m`` option and direct to the json file.
 
 API
 -----------
-For the API see the ``usermeta`` pass the JSON as a python dictionary to the ISA_Tab class. See the following API documentation for class `mzml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/mzml2isa/api/isatab.html>`__  and class `nmrml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/nmrml2isa/api/isatab.html>`__ 
+For the API the ``usermeta`` paramater can be used to pass the JSON metadata as a python dictionary to the ISA_Tab class. See the following API documentation for class `mzml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/mzml2isa/api/isatab.html>`__  and class `nmrml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/nmrml2isa/api/isatab.html>`__ 
 
 Galaxy
 -----------
