@@ -1,7 +1,7 @@
 Usage
 =====
 
-See the python package documentation for `detailed explanation http://2isa.readthedocs.io/en/latest/nmrml2isa/index.html`__  
+See the python package documentation for `detailed explanation <http://2isa.readthedocs.io/en/latest/nmrml2isa/index.html>`__ 
 
 
 Folder structure
