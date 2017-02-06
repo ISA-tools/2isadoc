@@ -33,6 +33,9 @@ Example structure::
          ├ Sample2.mzML
          └ ...
 
+
+See the `mzml2isa <http://2isa.readthedocs.io/en/latest/mzml2isa/usage.html>`__  documentation for more details. 
+
 Starting interface 
 ----------------
 

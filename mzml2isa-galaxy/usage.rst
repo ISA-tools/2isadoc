@@ -7,8 +7,8 @@ See the python package documentation for `detailed explanation http://2isa.readt
 Folder structure
 ----------------
 
-nmrml2isa only requires that you put all you nmrML and zipped raw files
-in the same folder, and parsing should work fine. Note that reference to
+For mzML files, mzml2isa only requires that you put all you files in
+the same folder, and parsing should work fine. Note that reference to
 RAW files is extracted from the mzML files, so if you plan to create an
 ISA archive after mzml2isa creates ISA files, don't forget to include
 those as well.
@@ -18,32 +18,30 @@ Example structure::
    /
    └ home/
      └ metabolomics/
-       └ nmrML_study1/     # the name of the folder doesn't matter
-         ├ Sample1.nmrML  # the name of the file must correspond to the sample name
-         ├ Sample2.zip    # the raw files should be zipped and called exactly like the nmrML
-         ├ Sample2.nmrML
-         ├ Sample2.zip
+       └ MZML study1/      # the name of the folder doesn't matter
+         ├ Sample1.mzML   # the name of the file must correspond to the sample name
+         ├ Sample2.mzML
          └ ...
-       └ nmrML_study2/    
-         ├ Sample1.nmrML 
-         ├ Sample2.zip    
-         ├ Sample2.nmrML
-         ├ Sample2.zip
+       └ MZML study2/      # the name of the folder doesn't matter
+         ├ Sample1.mzML   # the name of the file must correspond to the sample name
+         ├ Sample2.mzML
          └ ...
 
-The folders need to be zipped before adding to galaxy e.g. nmrML_study1.zip. The zipped folders are then added 1 at a time through the GetData interface of Galaxy.
+See the `mzml2isa <http://2isa.readthedocs.io/en/latest/mzml2isa/usage.html>`__  documentation for more details. 
+
+The folders need to be zipped before adding to galaxy e.g. MZML study1.zip. The zipped folders are then added 1 at a time through the GetData interface of Galaxy.
 
 Getting data into Galaxy
 ----------------
 Using the GetData tab, add the zipped metabolomics study into galaxy. Remember to use the 'zip' file type
 
 
-.. image:: galaxy_1.png
+.. image:: ../nmrml2isa-galaxy/galaxy_1.png
 
 Running nmrml2isa
 ----------------
 
-.. image:: galaxy_2b.png
+.. image:: galaxy_2a.png
 
 
 1.  Study name
@@ -54,7 +52,7 @@ Running nmrml2isa
 Output
 ----------------
 
-.. image:: galaxy_3.png
+.. image:: ../nmrml2isa-galaxy/galaxy_3.png
 
 The output consists of the following:
 

@@ -42,7 +42,7 @@ those images)::
          ├ B14 5cm S3-centroid.ibd     
          ├ B14 5cm S3-centroid.imzML    
 
-See the mzml2isa documentation for more details. 
+See the `mzml2isa <http://2isa.readthedocs.io/en/latest/mzml2isa/usage.html>`__  documentation for more details. 
 
 Starting interface 
 ----------------

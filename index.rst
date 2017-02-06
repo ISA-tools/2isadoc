@@ -49,6 +49,13 @@ Galaxy interfaces
    mzml2isa-galaxy <mzml2isa-galaxy/index.rst>
    nmrml2isa-galaxy <nmrml2isa-galaxy/index.rst>
 
+Other
+'''''''''''''''''''''''''
+
+.. toctree::
+   :maxdepth: 2
+
+   json metadata <json-metadata/index.rst>
 
 About
 -----
