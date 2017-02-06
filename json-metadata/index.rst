@@ -9,7 +9,11 @@ This is to allow the parsing tools to be added into existing bioinformatic/compu
 
 Example format:
 
-{
+.. highlight:: json
+
+.. code:: json
+
+   {
 	"characteristics": {
 		"organism": {
 			"name": "",
@@ -29,7 +33,7 @@ Example format:
 	} ....
 
 
-}
+   }
 
 Example templates for the metadata json can be extracted from either mzml2isa-qt, imzml2isa-qt or nmrml2isa-qt.
 
