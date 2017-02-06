@@ -3,10 +3,8 @@ Installation
 
 The recommended installation is by means of the `toolshed  repository <https://toolshed.g2.bx.psu.edu/>`__. Dependencies should be installed automatically when using Galaxy version >= 16.10.
 
-The dependencies are dealt with Bioconda. To ensure that Bioconda is working check to make sure the following settings are in the config/galaxy.ini file.
+The dependencies are dealt with Bioconda. To ensure that Bioconda is working check to make sure the following settings are in the config/galaxy.ini file::
 
-.. highlight:: bash
-.. code:: bash
    # dependencies before each job runs.
    conda_auto_install = True
    # Set to True to instruct Galaxy to install Conda from the web automatically
