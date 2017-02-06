@@ -40,6 +40,23 @@ Graphical User Interfaces
    nmrml2isa-qt <nmrml2isa-qt/index.rst>
 
 
+Galaxy interfaces
+'''''''''''''''''''''''''
+
+.. toctree::
+   :maxdepth: 2
+
+   mzml2isa-galaxy <mzml2isa-galaxy/index.rst>
+   nmrml2isa-galaxy <nmrml2isa-galaxy/index.rst>
+
+Other
+'''''''''''''''''''''''''
+
+.. toctree::
+   :maxdepth: 2
+
+   json metadata <json-metadata/index.rst>
+
 About
 -----
 
