@@ -13,7 +13,7 @@ nmrml2isa development version directly from the `nmrml2isa-qt GitHub repository 
 Windows
 ------------
 
-Windows users can either install nmrml2isa-qt as described below or use a 'ready to go' Windows executable. The executables be found on the nmrml2isa-qt `Github release section  <https://github.com/ISA-tools/nmrml2isa-qt/releases>`__. See file nmrml2isa_gui.exe.
+Windows users can either install nmrml2isa-qt as described below or use a 'ready to go' Windows executable (no python install required). The executables be found on the nmrml2isa-qt `Github release section  <https://github.com/ISA-tools/nmrml2isa-qt/releases>`__. See file nmrml2isa_gui.exe.
 
 
 Dependencies

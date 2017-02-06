@@ -12,7 +12,7 @@ also introduce new bugs, and that it might not work on your files.
 Windows
 ------------
 
-Windows users can either install mzml2isa as described below or use a 'ready to go' Windows executable. The executables be found on the nmrml2isa `Github release section  <https://github.com/ISA-tools/nmrml2isa/releases>`__. See file nmrml2isa_cli.exe.
+Windows users can either install mzml2isa as described below or use a 'ready to go' Windows executable (no python install required). The executables be found on the nmrml2isa `Github release section  <https://github.com/ISA-tools/nmrml2isa/releases>`__. See file nmrml2isa_cli.exe.
 
 
 Dependencies

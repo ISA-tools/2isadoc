@@ -53,7 +53,7 @@ Starting interface
 2.  Output folder (automatically the same as input)
 3.  Study name (automatically the same as the input folder name, e.g. 'imzml_study_1' in the above example)
 4.  If the 'input folder' contains multiple studies then mzML2ISA will be run each study, e.g. in the above example if 'metabolomics' folder was chosen as the 'input folder' then the parsing will be performed on both studies ('imzml_study_1', 'imzml_study_2')
-5.  If selected, seperate assay files will be created for positive and negative assays
+5.  If selected, when profile and centroided files of the same run are available the two files will be merged and saved under a single row in the assay file
 6.  If selected, the output folder will be the same as the input folder and input folder name will be used as the study name
 7.  The 'Add Metadata' button will open a new dialog box where users can add more metadata
 8.  Start the conversion process!
