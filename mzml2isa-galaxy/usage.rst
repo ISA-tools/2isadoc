@@ -46,7 +46,7 @@ Running nmrml2isa
 
 1.  Study name
 2.  zipped folder containing the nmrML files
-3.  For advanced users only. This allows any additional metadata to be added in json format see <../json-metadata/index.rst> 
+3.  For advanced users only. This allows any additional metadata to be added in json format see `json format <http://2isa.readthedocs.io/en/latest/json-metadata/index.html>`__ 
 4.  Optional simple additional metadata can be added manually through the dropdown tabs
 
 Output

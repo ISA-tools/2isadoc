@@ -5,6 +5,7 @@ The recommended installation is by means of the `toolshed  repository <https://t
 
 The dependencies are dealt with Bioconda. To ensure that Bioconda is working check to make sure the following settings are in the config/galaxy.ini file.
 
+.. highlight:: bash
 .. code:: bash
    # dependencies before each job runs.
    conda_auto_install = True
