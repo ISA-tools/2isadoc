@@ -1,7 +1,7 @@
 JSON metadata
 ===========
 
-This for advanced users only.
+*For advanced use only* 
 
 All additional metadata can be added in a JSON format. A format that is easily interchangeable with python dictionaries.
 
@@ -37,7 +37,7 @@ Example format:
 
 Example templates for the metadata json can be extracted from either mzml2isa-qt, imzml2isa-qt or nmrml2isa-qt.
 
-Run either of the following 
+Run either of the following:
 
 .. highlight:: bash
 
@@ -49,7 +49,7 @@ Run either of the following
 
 Add any metadata through the GUI and then click apply. The terminal will then spit out the JSON text.
 
-See the following link for full `example of json. http://codebeautify.org/jsonviewer/cba2a5c8`__   
+See the following link for full `example of json. <http://codebeautify.org/jsonviewer/cba2a5c8>`__   
 
 
 
