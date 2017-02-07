@@ -1,4 +1,4 @@
-JSON metadata
+Adding additional metadata via JSON file
 ===========
 
 .. warning::
