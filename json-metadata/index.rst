@@ -50,7 +50,7 @@ Run either of the following:
 
 Add any metadata through the GUI and then click apply. The terminal will then spit out the JSON text.
 
-See the following link for full `example of json. <http://codebeautify.org/jsonviewer/cba2a5c8>`__   
+See the following link for full `example of json used for mzml2isa. <http://codebeautify.org/jsonviewer/cba2a5c8>`__   
 
 GUI
 -----------
