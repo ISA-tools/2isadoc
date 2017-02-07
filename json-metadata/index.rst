@@ -1,4 +1,4 @@
-Adding additional metadata via JSON file
+Using additional metadata JSON file
 ===========
 
 .. warning::
@@ -54,7 +54,7 @@ See the following link for full `example of json used for mzml2isa. <http://code
 
 GUI
 -----------
-This metadata is added direcly via via the GUI using via the usermeta dialog. 
+This metadata is added direcly via the GUI using the usermeta dialog. 
 
 CLI
 -----------
