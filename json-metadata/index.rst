@@ -64,7 +64,7 @@ Add any metadata through the GUI and then click apply. The terminal will then sp
 
 
 
-### Adding additional metadata via JSON for CLI
+**Adding additional metadata via JSON for CLI:**
 
 For the CLI simply use the ``-m`` option and direct to the json file. 
 
@@ -75,17 +75,17 @@ For the CLI simply use the ``-m`` option and direct to the json file.
    nmrml2isa -i /path/to/mzml/folder -o /path/to/out_folder -s STUDYID -m metadata.json
 
 
-###  Adding additional metadata via JSON for API
+**Adding additional metadata via JSON for API:**
 
 For the API the ``usermeta`` paramater can be used to pass the JSON metadata as a python dictionary to the ISA_Tab class. See the following API documentation for class `mzml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/mzml2isa/api/isatab.html>`__  and class `nmrml2isa.isa.ISA_Tab <http://2isa.readthedocs.io/en/latest/nmrml2isa/api/isatab.html>`__ 
 
 
-### Adding additional metadata via JSON for Galaxy
+**Adding additional metadata via JSON for Galaxy:**
 
 This metadata can be added manually via the dropdown options or via a prepared JSON file using the ``Additional user metadata in json`` option.
 
 
-### Adding additional metadata via JSON for GUI
+**Adding additional metadata via JSON for GUI:**
 
 Not possible. This metadata is added direcly via the GUI using the usermeta dialog. 
 
