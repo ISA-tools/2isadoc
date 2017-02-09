@@ -3,7 +3,7 @@ Editing with ISAcreator
 
 .. image:: ../mzml2isa-qt/isa_creator_workflow.png
 
-The ISA-Tab structure can be further populated with the `ISAcreator software  <http://isa-tools.org/software-suite/>`__.
+The ISA-Tab structure genearted from the 2ISA tools can be further populated with the `ISAcreator software  <http://isa-tools.org/software-suite/>`__.
 
 The workflow being as follows:
 
