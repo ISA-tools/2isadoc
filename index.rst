@@ -19,8 +19,8 @@ creating the backbone for an ISA-Tab study that can then be shared on databases 
 
 	
 
-.. image:: mzml2isa_colour.png
-	
+.. image:: http://i.imgur.com/i7eXQDS.png
+
 	
 Documentation
 -------------
