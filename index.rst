@@ -1,8 +1,6 @@
 2isa suite
 ==========
 
-.. image:: mzml2isa_colour.png
-
 
 The 2isa suite is a collection of programs that can extract metadata out of various metabolomics
 file formats and write them to `ISA-Tab <http://isa-tools.org/format/specification/>`__ files,
@@ -19,11 +17,17 @@ creating the backbone for an ISA-Tab study that can then be shared on databases 
     XML-like files containing derived spectral data of nuclear magnetic resonance scans
 
 
+	
+
+.. image:: mzml2isa_colour.png
+	
+	
 Documentation
 -------------
 
 Command Line Applications / Libraries
 ''''''''''''''''''''''''''''''''''''''
+The command line applications / libraries are currently divided into the mzml2isa package (covering mzML and imzML) and nmrml2isa (covering nmrML). 
 
 .. toctree::
    :maxdepth: 2
@@ -34,6 +38,7 @@ Command Line Applications / Libraries
 
 Graphical User Interfaces
 '''''''''''''''''''''''''
+The graphical user interfaces are divided into mzmlisa-qt (covering mzML), imzml2isa-qt (covering imzML) and nmrml2isa-qt (covering nmrML). 
 
 .. toctree::
    :maxdepth: 2
@@ -45,6 +50,7 @@ Graphical User Interfaces
 
 Galaxy interfaces
 '''''''''''''''''''''''''
+The Galaxy interfaces are divided into mzml2isa-galaxy (covering mzML and imzML) and nmrml2isa-galaxy (covering nmrML)
 
 .. toctree::
    :maxdepth: 2
