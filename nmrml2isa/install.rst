@@ -26,7 +26,7 @@ Requirements
 ''''''''''''
 
 `pronto <https://pypi.python.org/pypi/pronto>`__
-   an interface to ontology files (used to import the MS controled vocabulary)
+   an interface to ontology files (used to import the MS controlled vocabulary)
 
 `chainmap <https://pypi.python.org/pypi/chainmap>`_ (required for Python 2 or PyPy)
    a polyfill implementation of collections.ChainMap (available in Python 3 stdlib)

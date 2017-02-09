@@ -27,7 +27,7 @@ Requirements
 ''''''''''''
 
 `nmrml2isa <https://pypi.python.org/pypi/nmrml2isa>`_
-   the parsing libary (see `here <http://2isa.readthedocs.io/en/latest/nmrml2isa/index.html>`_)
+   the parsing library (see `here <http://2isa.readthedocs.io/en/latest/nmrml2isa/index.html>`_)
 
 `PyQt5 <https://pypi.python.org/pypi/PyQt5/5.6>`_
    the GUI toolkit used by nmrml2isa-qt (see `here <https://riverbankcomputing.com/software/pyqt/intro>`_

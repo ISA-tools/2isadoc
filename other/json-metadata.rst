@@ -15,7 +15,7 @@ Adding experimental metadata via JSON format
 
 Additional metadata not found in the XML files can be added in a JSON format e.g. organism studied, chromatography used, contact details etc.
 
-This is to allow the parsing tools to be added into existing bioinformatic/computational workflows that may already have collected this information.
+This allows existing bioinformatic/computational workflows, which may already have collected some additional metadata, to automatically populate additional entries in the ISA-Tab files.
 
 Example format:
 

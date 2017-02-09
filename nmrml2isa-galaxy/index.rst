@@ -6,7 +6,7 @@ nmrml2isa-galaxy
 
 nmrml2isa-galaxy is a Galaxy wrapper for the nmrml2isa python package tool. 
 
-`Galaxy  repository <https://galaxyproject.org/>`__ is a web based worklow platform that can be used to perform bioinformatics in a reproducible and sharable enviroment.
+`Galaxy  repository <https://galaxyproject.org/>`__ is a web based workflow platform that can be used to perform bioinformatics in a reproducible and sharable environment.
  
 
 .. toctree::

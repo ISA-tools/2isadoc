@@ -38,7 +38,7 @@ Python module
 
 
 Extract metadata of a file called `sample1.mzML` and print
-a json dictionnary containing those metadata
+a JSON dictionary containing those metadata
 
 .. highlight:: bash
 
