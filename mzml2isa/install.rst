@@ -10,7 +10,7 @@ mzml2isa development version directly from the `mzml2isa GitHub repository <http
 Windows
 ------------
 
-Windows users can either install mzml2isa as described below or use a 'ready to go' Windows executable (no python install required). The executables be found on the mzml2isa `Github release section  <https://github.com/ISA-tools/mzml2isa/releases>`__. See file mzml2isa_cli.exe.
+Windows users can either install mzml2isa as described below or use a 'ready to go' Windows executable **(no python install required)**. The executables be found on the mzml2isa `Github release section  <https://github.com/ISA-tools/mzml2isa/releases>`__. See file mzml2isa_cli.exe.
 
 Dependencies
 ------------

@@ -13,7 +13,7 @@ mzml2isa development version directly from the `mzml2isa-qt GitHub repository <h
 Windows
 ------------
 
-Windows users can either install mzml2isa-qt as described below or use a 'ready to go' Windows executable (no python install required). The executables be found on the mzml2isa-qt `Github release section  <https://github.com/ISA-tools/mzml2isa-qt/releases>`__. See file mzml2isa_gui.exe.
+Windows users can either install mzml2isa-qt as described below or use a 'ready to go' Windows executable **(no python install required)**. The executables be found on the mzml2isa-qt `Github release section  <https://github.com/ISA-tools/mzml2isa-qt/releases>`__. See file mzml2isa_gui.exe.
 
 
 Dependencies
