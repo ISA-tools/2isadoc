@@ -3,7 +3,7 @@ Editing with ISAcreator
 
 .. image:: isa_creator_workflow.png
 
-The ISA-Tab structure can be further populated with the `ISAcreator software  <http://isa-tools.org/software-suite/>`__.
+The ISA-Tab structure genearted from the 2ISA tools can be further populated with the `ISAcreator software  <http://isa-tools.org/software-suite/>`__.
 
 The workflow being as follows:
 
@@ -16,5 +16,3 @@ The workflow being as follows:
 7.  Fill all remaining fields with ISAcreator
 
 A video of the standard Metabolights procedure can be found on  `youtube  <https://www.youtube.com/watch?v=LJFf4O6QPl8/>`__.
-
-

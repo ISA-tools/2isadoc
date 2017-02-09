@@ -6,7 +6,7 @@ Metadata in JSON format
 
 Metadata extraction in JSON format
 -----------
-All metadata extracted from the XML files can be saved in a JSON format. The format is easily interchangeable with python dictionaries can also be easily 'piped' to other bioinformatic pipelines regardles of programming language used.
+All metadata extracted from the XML files can be saved in a JSON format. The format is easily interchangeable with python dictionaries can also be easily 'piped' to other bioinformatic pipelines regardless of programming language used.
 
 
 
@@ -45,9 +45,9 @@ Example format:
 
    }
    
-See the following link for full `example of json used for mzml2isa. <http://codebeautify.org/jsonviewer/cba2a5c8>`__   
+See the following link for full `example of JSON used for mzml2isa. <http://codebeautify.org/jsonviewer/cba2a5c8>`__   
 
-Example templates for the metadata json can be extracted from either mzml2isa-qt, imzml2isa-qt or nmrml2isa-qt.
+Example templates for the metadata JSON can be extracted from either mzml2isa-qt, imzml2isa-qt or nmrml2isa-qt.
 
 Run either of the following:
 
@@ -87,6 +87,6 @@ This metadata can be added manually via the dropdown options or via a prepared J
 
 **Adding additional metadata via JSON for GUI:**
 
-Not possible. This metadata is added direcly via the GUI using the usermeta dialog. 
+Not possible. This metadata is added directly via the GUI using the usermeta dialog. 
 
 

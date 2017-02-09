@@ -55,7 +55,7 @@ Other
 .. toctree::
    :maxdepth: 2
 
-   JSON metadata <json-metadata/index.rst>
+   Other <other/index.rst>
 
 About
 -----

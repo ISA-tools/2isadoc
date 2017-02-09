@@ -4,7 +4,7 @@ Other
 .. toctree::
    :maxdepth: 2
 
-   ISAcreator <isa-creator.rst>
+   ISAcreator <isacreator.rst>
    JSON metadata <json-metadata.rst>
    
 
