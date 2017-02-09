@@ -16,5 +16,3 @@ The workflow being as follows:
 7.  Fill all remaining fields with ISAcreator
 
 A video of the standard Metabolights procedure can be found on  `youtube  <https://www.youtube.com/watch?v=LJFf4O6QPl8/>`__.
-
-
