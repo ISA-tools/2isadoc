@@ -1,6 +1,9 @@
 2isa suite
 ==========
 
+.. image:: mzml2isa_colour.png
+
+
 The 2isa suite is a collection of programs that can extract metadata out of various metabolomics
 file formats and write them to `ISA-Tab <http://isa-tools.org/format/specification/>`__ files,
 creating the backbone for an ISA-Tab study that can then be shared on databases such as
