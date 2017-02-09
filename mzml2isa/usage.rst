@@ -112,3 +112,10 @@ Python module
 See the :doc:`Examples <examples>` and the :doc:`API reference <api/index>`
 for more hindsights.
 
+
+Editing with ISAcreator
+----------------
+The ISA-Tab structure can be further populated with the `ISAcreator software  <http://isa-tools.org/software-suite/>`__.
+
+See brief `tutorial <http://2isa.readthedocs.io/en/latest/other/isacreator.html>`__  for more details. 
+

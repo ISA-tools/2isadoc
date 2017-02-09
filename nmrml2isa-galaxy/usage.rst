@@ -60,7 +60,11 @@ The output consists of the following:
 * A Files: Dataset collection containing 1 or more assay files
 * ISA zip file: A zip file containing all of the outputs
 
+Editing with ISAcreator
+----------------
+The ISA-Tab structure can be further populated with the `ISAcreator software  <http://isa-tools.org/software-suite/>`__.
 
+See brief `tutorial <http://2isa.readthedocs.io/en/latest/other/isacreator.html>`__  for more details. 
 
 
 
